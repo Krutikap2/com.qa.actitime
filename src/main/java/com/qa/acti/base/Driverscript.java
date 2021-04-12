@@ -57,7 +57,7 @@ public class Driverscript {
 		driver.get(url);
 
 	}
-	
+	// This method is to close the application
 	public void Closeapplication()
 	{
 		driver.close();
