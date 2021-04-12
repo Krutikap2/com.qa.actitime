@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9822" started-at="2021-04-12T03:42:14Z" finished-at="2021-04-12T03:42:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9822" started-at="2021-04-12T03:42:14Z" finished-at="2021-04-12T03:42:24Z">
+      <class name="com.qa.acti.base.Driverscript">
+        <test-method status="PASS" signature="initApplication()[pri:0, instance:com.qa.acti.base.Driverscript@39aeed2f]" name="initApplication" duration-ms="9805" started-at="2021-04-11T23:42:14Z" finished-at="2021-04-11T23:42:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApplication -->
+      </class> <!-- com.qa.acti.base.Driverscript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
