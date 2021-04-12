@@ -30,7 +30,7 @@ public class Driverscript {
 			System.out.println("Unable to load the file"+ e.getMessage());
 		}
 	}
-@Test
+
 	public void initApplication()
 	{
 		String browser = prop.getProperty("browser");
@@ -56,6 +56,11 @@ public class Driverscript {
 		String url = prop.getProperty("qaurl");
 		driver.get(url);
 
+	}
+	
+	public void Closeapplication()
+	{
+		driver.close();
 	}
 
 }
